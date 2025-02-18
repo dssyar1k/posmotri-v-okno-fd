@@ -157,9 +157,8 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  width: 19px;
-  height: 19px;
+  width: 15px;
+  height: 15px;
   outline: 1px solid #fff;
   outline-offset: 1px;
   margin-right: 5px;
@@ -190,7 +189,7 @@ input[type="checkbox"]:checked + .search-form__checkbox::after {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   background-color: transparent;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
@@ -287,6 +286,10 @@ input[type="checkbox"]:checked + .search-form__checkbox::after {
   outline-offset: 1px;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link_current {
   background-color: #545050;
 }
@@ -330,8 +333,8 @@ input[type="checkbox"]:checked + .search-form__checkbox::after {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
+  inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
   object-position: center;
 }
